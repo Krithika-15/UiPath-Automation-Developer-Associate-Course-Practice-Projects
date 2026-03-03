@@ -1,0 +1,6 @@
+{
+  "Name": "Email Address Extraction Bot",
+  "ProjectType": "Process",
+  "Description": "Extracts a single email address from a string (without using Regex).",
+  "MainFile": "Main.xaml"
+}

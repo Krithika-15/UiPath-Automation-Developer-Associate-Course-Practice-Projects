@@ -77,57 +77,21 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="762,977" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="768,526.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Sequence Extract Email Address" sap:VirtualizedContainerService.HintSize="450,954" sap2010:WorkflowViewState.IdRef="Sequence_2">
-      <Sequence.Variables>
-        <Variable x:TypeArguments="x:String" Name="InputData" />
-        <Variable x:TypeArguments="x:String" Name="EmailAddress" />
-        <Variable x:TypeArguments="x:Int32" Name="StartIndex" />
-        <Variable x:TypeArguments="x:Int32" Name="EndIndex" />
-      </Sequence.Variables>
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
-      <Assign sap:VirtualizedContainerService.HintSize="416,176" sap2010:WorkflowViewState.IdRef="Assign_1">
-        <Assign.To>
-          <OutArgument x:TypeArguments="x:String">[InputData]</OutArgument>
-        </Assign.To>
-        <Assign.Value>
-          <InArgument x:TypeArguments="x:String">[“Please use the following address to contact me john.doe@localcompany.com on the company email."]</InArgument>
-        </Assign.Value>
-      </Assign>
-      <Assign DisplayName="Assign Finding Position" sap:VirtualizedContainerService.HintSize="416,176" sap2010:WorkflowViewState.IdRef="Assign_2">
-        <Assign.To>
-          <OutArgument x:TypeArguments="x:Int32">[StartIndex]</OutArgument>
-        </Assign.To>
-        <Assign.Value>
-          <InArgument x:TypeArguments="x:Int32">[InputData.IndexOf("me ") + "me ".Length]</InArgument>
-        </Assign.Value>
-      </Assign>
-      <Assign DisplayName="Assign Finding Position" sap:VirtualizedContainerService.HintSize="416,176" sap2010:WorkflowViewState.IdRef="Assign_3">
-        <Assign.To>
-          <OutArgument x:TypeArguments="x:Int32">[EndIndex]</OutArgument>
-        </Assign.To>
-        <Assign.Value>
-          <InArgument x:TypeArguments="x:Int32">[InputData.IndexOf(" on")]</InArgument>
-        </Assign.Value>
-      </Assign>
-      <Assign sap:VirtualizedContainerService.HintSize="416,176" sap2010:WorkflowViewState.IdRef="Assign_4">
-        <Assign.To>
-          <OutArgument x:TypeArguments="x:String">[EmailAddress]</OutArgument>
-        </Assign.To>
-        <Assign.Value>
-          <InArgument x:TypeArguments="x:String">[InputData.Substring(StartIndex, EndIndex - StartIndex)]</InArgument>
-        </Assign.Value>
-      </Assign>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,167" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[EmailAddress]" />
-    </Sequence>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="EmailExtractingUsingWords - Invoke Workflow File (EmailExtractingUsingWords.xaml)" sap:VirtualizedContainerService.HintSize="450,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="EmailExtractingUsingWords.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" DisplayName="EmailExtractionUsing@ - Invoke Workflow File (EmailExtractionUsing@.xaml)" sap:VirtualizedContainerService.HintSize="450,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="EmailExtractionUsing@.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
   </Sequence>
 </Activity>

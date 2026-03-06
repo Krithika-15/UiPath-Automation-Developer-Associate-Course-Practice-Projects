@@ -9,7 +9,7 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "EmailExtractionUsing@.xaml",
+      "Path": null,
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": null,
@@ -17,7 +17,7 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "EmailExtractingUsingWords.xaml",
+      "Path": "UsingOneFile.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": null,

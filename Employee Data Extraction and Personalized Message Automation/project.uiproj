@@ -1,0 +1,6 @@
+{
+  "Name": "Employee Data Extraction and Personalized Message Automation",
+  "ProjectType": "Process",
+  "Description": "Extract text information from a template file and use it to fill in the placeholder text in a string using string activities.",
+  "MainFile": "Main.xaml"
+}

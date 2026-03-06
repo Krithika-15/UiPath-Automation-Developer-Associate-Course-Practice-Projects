@@ -1,0 +1,24 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "c48b5e1c-7f42-49eb-a7a8-d31985534033",
+      "type": "process",
+      "input": {
+        "type": "object",
+        "properties": {
+          "in_OutputFolderPath": {
+            "type": "string",
+            "x-default-expression": "Path.Combine(CurDir,\"Output\")"
+          },
+          "in_InputFolderPath": {
+            "type": "string",
+            "x-default-expression": "Path.Combine(CurDir,\"Input\")"
+          }
+        },
+        "required": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "Name": "Regex Address Demo",
+  "ProjectType": "Process",
+  "Description": "Learning About Regex",
+  "MainFile": "Main.xaml"
+}

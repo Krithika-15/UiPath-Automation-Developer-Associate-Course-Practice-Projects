@@ -1,0 +1,6 @@
+{
+  "Name": "Email Extraction Using Regex",
+  "ProjectType": "Process",
+  "Description": "Extracts all the email addresses from the provided template file using regular expression. ",
+  "MainFile": "Main.xaml"
+}

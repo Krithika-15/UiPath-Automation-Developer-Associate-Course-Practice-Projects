@@ -1,0 +1,6 @@
+{
+  "Name": "Employee Email ID Generator from Text Files",
+  "ProjectType": "Process",
+  "Description": "Creating Email Ids for employees from text files using string activities.",
+  "MainFile": "Main.xaml"
+}

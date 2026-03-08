@@ -1,0 +1,6 @@
+{
+  "Name": "Tour de France Winners Analysis Using Dictionary",
+  "ProjectType": "Process",
+  "Description": "Given a dictionary containing a year and associated name as input:\r\n\r\nCalculate the number of victories of each winner.\r\nPrint every winner's name with its corresponding number of victories in the output panel.  ",
+  "MainFile": "Main.xaml"
+}

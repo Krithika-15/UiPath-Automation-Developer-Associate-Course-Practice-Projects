@@ -78,7 +78,7 @@
       <AssemblyReference>System.Linq.Async</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="566,1180.5" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="566,1004.5" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="scg:List(x:String)" Name="Countries">
         <Variable.Default>
@@ -116,7 +116,6 @@
         <InArgument x:TypeArguments="scg:List(x:String)">[Countries.GetRange(0,3)]</InArgument>
       </Assign.Value>
     </Assign>
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="450,123.5" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[&quot;Descending Order of Countries : &quot; + String.Join(&quot;, &quot;, OutputList)]" />
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,167" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Descending Order of Countries : &quot; + String.Join(&quot;, &quot;, OutputList)]" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="450,114.5" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="[&quot;Descending Order of Countries : &quot; + String.Join(&quot;, &quot;, OutputList)]" />
   </Sequence>
 </Activity>

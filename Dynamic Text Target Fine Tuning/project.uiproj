@@ -1,0 +1,6 @@
+{
+  "Name": "Dynamic Text Target Fine Tuning",
+  "ProjectType": "Process",
+  "Description": "Learning",
+  "MainFile": "Main.xaml"
+}

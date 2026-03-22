@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge ACME System 1 - Vendors - Search",
+  "Type": "Screen",
+  "Id": "mGJclcmOgEi-h9DxwqSXdA",
+  "Reference": "91xXoDAToEG8lJG58U3KpQ/mGJclcmOgEi-h9DxwqSXdA",
+  "ParentRef": "91xXoDAToEG8lJG58U3KpQ/ivDRI_dNOEOxdgnoDOiRAA",
+  "Created": "2026-03-11T09:31:48.806967Z",
+  "Updated": "2026-03-11T09:31:48.806967Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

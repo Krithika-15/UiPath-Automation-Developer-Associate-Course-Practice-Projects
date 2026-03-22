@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NMOsiFh2O0-1s47VZrwhOQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com/movieSearch" DesignTimeRectangle="835, 677, 514, 1060" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='card-reveal' tag='DIV' /&gt;" Guid="2c81d0a9-a56a-4eb5-87c8-a504adb5e4e8" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="de9732dc3dabbb21a34d1c243697a97e.jpg" xmlns="">0wP3ct0RA-02zjDB9mdWBRQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

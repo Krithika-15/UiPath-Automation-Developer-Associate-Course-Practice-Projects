@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BQWCsgpWekSV92k0bd8KNQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="1bad64b3-02dd-4a20-b419-cd088268c95a" CvElementArea="856, 858, 179, 55" CvTextArea="917, 874, 54, 24" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="857, 861, 176, 52" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Save' /&gt;" Guid="7781d610-38ce-47dc-9f0d-2c54ccc893cf" ScopeSelectorArgument="&lt;wnd app='notepad.exe' appid='Microsoft.WindowsNotepad_8wekyb3d8bbwe!App' title='Save as' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1bad64b3-02dd-4a20-b419-cd088268c95a" CvElementArea="1055, 858, 179, 55" CvTextArea="1105, 874, 76, 26" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="1057, 861, 176, 52" ElementType="Button" FuzzySelectorArgument="&lt;wnd ctrlid='2' title='Cancel' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Cancel' /&gt;" Guid="b1f333da-9b97-49a7-b10b-14bbf498b7f5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3db5c1f7f086180b81397c51e32909e2.jpg" xmlns="">0frTMm2zGW0uY0GrK4Ik9Rg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

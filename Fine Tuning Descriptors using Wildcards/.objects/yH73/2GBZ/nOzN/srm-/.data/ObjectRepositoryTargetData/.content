@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UIrIjxtAn0OvxK-aMcDLiw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com" CVScreenId="6f86a9f9-9d48-467e-822d-6b69f2bad3af" CvElementArea="273, 958, 410, 99" CvTextArea="461, 991, 86, 34" CvTextArgument="Bank" CvType="Button" DesignTimeRectangle="278, 963, 400, 92" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='                  Bank' parentid='dashmenu' tag='BUTTON' /&gt;" Guid="1b79edf6-c838-4188-9fea-6c3d6bafc927" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6f86a9f9-9d48-467e-822d-6b69f2bad3af" CvElementArea="273, 846, 410, 100" CvTextArea="407, 877, 182, 42" CvTextArgument="Employees" CvType="Button" DesignTimeRectangle="278, 851, 400, 92" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='                          Employees' parentid='dashmenu' tag='BUTTON' type='button' class='btn btn-default btn-lg' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Employees' /&gt;" Guid="fadc0c2e-3a6f-42b1-8e6d-178e443bac01" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1a93ca872f78e7dae167f593ab00d9aa.jpg" xmlns="">0vkRg_JN-xECe565sYcwQ8Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

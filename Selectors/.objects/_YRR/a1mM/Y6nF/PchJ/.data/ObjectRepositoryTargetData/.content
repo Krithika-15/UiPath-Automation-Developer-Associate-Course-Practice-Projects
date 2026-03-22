@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="353wnjWhg0yvF4piXBwZ0Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nseindia.com" DesignTimeRectangle="495, 469, 1596, 934" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-label='Gold 10 Grams Futures Contract' tag='IMG' /&gt;" Guid="83e9a603-b9e7-4083-bf48-d383f3da7e7b" ScopeSelectorArgument="&lt;html app='msedge.exe' title='NSE - National Stock Exchange of India Ltd: Live Share/Stock Market News &amp;amp;amp; Updates, Quotes- Nseindia.com' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8aff7138ececb953d36c776b20bb85b1.jpg" xmlns="">0q9oNr0os0EilUv-BxgruUQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

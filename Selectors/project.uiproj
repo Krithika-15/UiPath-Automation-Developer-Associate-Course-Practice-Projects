@@ -1,0 +1,6 @@
+{
+  "Name": "Sensex Trend Analyzer",
+  "ProjectType": "Process",
+  "Description": "The process will navigate to the NSE website, extract the Sensex points, and retrieve the arrow indicator (red or green) to demonstrate the functionalities of UI Explorer, Property Explorer, and Get Attribute activity.\r\n\r\nOnce the robot has read the values and arrow indication, it'll write the details to the Excel report.",
+  "MainFile": "Main.xaml"
+}

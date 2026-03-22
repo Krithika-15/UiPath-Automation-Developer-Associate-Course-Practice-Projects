@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge NSE - National Stock Exchange of India L",
+  "Type": "Screen",
+  "Id": "Y6nFg6mkeEGxPkJznDfPxg",
+  "Reference": "v9uit2cgCEiPYi6RC8VS4w/Y6nFg6mkeEGxPkJznDfPxg",
+  "ParentRef": "v9uit2cgCEiPYi6RC8VS4w/a1mMblb_HkOiSzrlaakcLw",
+  "Created": "2026-03-14T13:02:07.0143167Z",
+  "Updated": "2026-03-14T13:02:07.0143167Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

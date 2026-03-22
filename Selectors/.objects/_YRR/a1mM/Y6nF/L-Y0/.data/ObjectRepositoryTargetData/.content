@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BuVTQjfXlU6HPpvyiTquUQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nseindia.com" DesignTimeRectangle="2011, 387, 64, 64" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-label='Close' tag='BUTTON' type='button' /&gt;" Guid="01ab4ac0-a1c2-4478-a356-35328dcf6516" ScopeSelectorArgument="&lt;html app='msedge.exe' title='NSE - National Stock Exchange of India Ltd: Live Share/Stock Market News &amp;amp;amp; Updates, Quotes- Nseindia.com' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="794788d37f6131f3956b2e05d835c5bd.jpg" xmlns="">0ei2FFCzmgUqtRVcm4RMVFQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

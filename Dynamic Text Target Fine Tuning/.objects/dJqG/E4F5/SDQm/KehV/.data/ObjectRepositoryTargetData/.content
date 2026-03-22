@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SRFr1cWxkUSYzgFm6CIYXA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8a10784f-5dec-4353-a21b-b68e84146505" CvTextArea="38, 100, 46, 28" CvTextArgument="File" CvType="Text" DesignTimeRectangle="38, 100, 46, 28" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="36cb2cf4-efd6-462e-ae14-5fbeae71d795" ScopeSelectorArgument="&lt;wnd app='notepad.exe' appid='Microsoft.WindowsNotepad_8wekyb3d8bbwe!App' title='Untitled - Notepad' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8a10784f-5dec-4353-a21b-b68e84146505" CvTextArea="136, 100, 50, 28" CvTextArgument="Edit" CvType="Text" DesignTimeRectangle="136, 100, 50, 28" ElementType="Text" Guid="6d4bfda6-2a1a-41ac-959a-ddada527237f" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5866390f6c8c2555bb4c8762f6baee35.jpg" xmlns="">0yq0p_wPFjESoQr0GdLtG2w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

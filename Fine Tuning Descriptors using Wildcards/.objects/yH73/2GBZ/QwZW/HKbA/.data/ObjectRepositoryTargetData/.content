@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="V7sZRrvew0qwrZ3d3KnhiQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com" CVScreenId="f570664e-d6fa-4db2-a417-d0d320db64c6" CvTextArea="135, 453, 356, 64" CvTextArgument="Dashboard" CvType="Text" DesignTimeRectangle="138, 447, 2280, 99" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="6c7fc8af-a8d0-421b-9d09-cd583cfd4255" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f570664e-d6fa-4db2-a417-d0d320db64c6" CvTextArea="165, 605, 258, 28" CvTextArgument="Home / Dashboard" CvType="Text" DesignTimeRectangle="138, 586, 2280, 72" FuzzySelectorArgument="&lt;webctrl tag='OL' type='' class='breadcrumb' aaname='                                                                                                                                   ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Home Dashboard' /&gt;" Guid="0f5e87e3-2692-4d5f-a294-6dde642bcbe2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1df6179c6b260a8ce9386f19101bad25.jpg" xmlns="">0074KOiKzxkOgbeWiy_yBlQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

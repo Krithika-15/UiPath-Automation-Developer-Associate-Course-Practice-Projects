@@ -1,0 +1,6 @@
+{
+  "Name": "Add New Vendor Details",
+  "ProjectType": "Process",
+  "Description": "Use the \"check app state\" and \"verify execution\" features to check if the user is logged in to the ACME page. If the user is not logged in, log an error message. If the user is logged in, navigate to Vendor > Add New Vendor section. Enter the details of the new vendor and verify that the vendor is added successfully. ",
+  "MainFile": "Main.xaml"
+}

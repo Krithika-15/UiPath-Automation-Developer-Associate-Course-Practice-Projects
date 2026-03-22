@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Actions WIID Descriptio…",
+  "Type": "Element",
+  "Id": "__PgorsYR0eFcos_sXiw5w",
+  "Reference": "-SvFPy4QckOquIQ7SQImAw/__PgorsYR0eFcos_sXiw5w",
+  "ParentRef": "-SvFPy4QckOquIQ7SQImAw/OfHx799mIUKuYGE2Al2mfw",
+  "Created": "2026-03-13T12:58:15.438806Z",
+  "Updated": "2026-03-13T12:58:15.438806Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZIwpU5a3Ikm_hnhHNMqHKg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/login" CVScreenId="63e7f526-e310-4a9b-8e2a-84c2f4bb4755" CvTextArea="137, 451, 176, 80" CvTextArgument="Login" CvType="Text" DesignTimeRectangle="138, 447, 2280, 99" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" Guid="bc76d8f9-d6a2-499d-b713-227e4db5e4ec" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="63e7f526-e310-4a9b-8e2a-84c2f4bb4755" CvTextArea="165, 607, 190, 32" CvTextArgument="Home / Login" CvType="Text" DesignTimeRectangle="138, 586, 2280, 72" FuzzySelectorArgument="&lt;webctrl tag='OL' type='' class='breadcrumb' aaname='                                                                                                                                                                                                                                                                                                   ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Home Login' /&gt;" Guid="f1fe2cb5-c1b3-4ac7-91c5-0ee1fe5a859f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1a3fb7c7c473ed836adfbb978f18d474.jpg" xmlns="">0HeX0KvhBBkqDUBlO-bjNqg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

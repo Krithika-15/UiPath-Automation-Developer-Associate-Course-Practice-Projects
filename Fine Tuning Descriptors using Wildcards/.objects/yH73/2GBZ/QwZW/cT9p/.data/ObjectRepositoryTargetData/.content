@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SzOEQaLl_E2uR3fmOXvL7w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com" CVScreenId="4c88cbc8-17db-48de-a858-630dec0d96f4" CvElementArea="272, 846, 410, 100" CvTextArea="407, 877, 184, 42" CvTextArgument="Employees" CvType="Button" DesignTimeRectangle="278, 851, 400, 92" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='                          Employees' parentid='dashmenu' tag='BUTTON' /&gt;" Guid="d7a3e098-dff8-42e2-8e53-75ffa0df61d4" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4c88cbc8-17db-48de-a858-630dec0d96f4" CvElementArea="273, 734, 409, 101" CvTextArea="403, 765, 196, 36" CvTextArgument="Health Care" CvType="Button" DesignTimeRectangle="278, 739, 400, 92" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='                  Health Care' parentid='dashmenu' tag='BUTTON' type='button' class='btn btn-default btn-lg dropdown-toggle' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Health Care' /&gt;" Guid="068e56c9-a56f-41c4-987d-0f4311b7ff68" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3537226063d402b9097402f864d9f5c4.jpg" xmlns="">0YqM1SbIWTUeWdLgswaJaIw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

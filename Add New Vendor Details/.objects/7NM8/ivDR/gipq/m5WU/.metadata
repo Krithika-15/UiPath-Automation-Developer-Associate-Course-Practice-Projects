@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Add Vendor",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "m5WUFH6-iUqERglMNM6Ptw",
+  "Reference": "91xXoDAToEG8lJG58U3KpQ/m5WUFH6-iUqERglMNM6Ptw",
+  "ParentRef": "91xXoDAToEG8lJG58U3KpQ/gipqfsZcG0qhM35HY4-43Q",
+  "Created": "2026-03-10T10:10:05.9589243Z",
+  "Updated": "2026-03-10T10:10:05.9589243Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

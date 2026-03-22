@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ERpu0y58oU21p7UVi7vwYw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/employees" CVScreenId="1c11ca4c-812c-457e-85a2-065044640199" CvElementArea="1197, 606, 160, 91" CvTextArea="1221, 629, 112, 42" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="1201, 609, 154, 85" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='refreshBtn' tag='BUTTON' /&gt;" Guid="62a0ae08-4432-4891-8012-7ec05c53c3f8" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Employees' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1c11ca4c-812c-457e-85a2-065044640199" CvTextArea="1041, 513, 470, 28" CvTextArgument="Please select the following candidate:" CvType="Text" DesignTimeRectangle="943, 509, 670, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl isleaf='1' parentid='openModalRefresh' tag='DIV' type='' class='' aaname='Please select the following candidate:' matching:isleaf='fuzzy' fuzzylevel:isleaf='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Please select the following candidate:' /&gt;" Guid="c5b27303-c978-480c-b04b-03c86a019170" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4a4a96b5ec28da0e25f05e12b8fa74e5.jpg" xmlns="">0qsLwCtjak0ungLolQuIf_A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

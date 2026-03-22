@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tFETlcUc40WaA6ZEEvX3jw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/vendors/search" CVScreenId="806b8a2e-0d09-40c4-b01a-57125a888115" CvElementArea="274, 1111, 146, 73" CvTextArea="301, 1133, 94, 28" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="278, 1114, 141, 68" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='buttonSearch' tag='BUTTON' /&gt;" Guid="faa648fb-1914-4f9d-857d-024c260b063c" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Vendors - Search' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="806b8a2e-0d09-40c4-b01a-57125a888115" CvElementArea="423, 1110, 298, 73" CvTextArea="449, 1133, 244, 32" CvTextArgument="Display All Vendors" CvType="Button" DesignTimeRectangle="427, 1114, 291, 68" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='buttonShowAll' tag='BUTTON' type='button' class='btn btn-secondary' aaname='Display All Vendors' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Display All Vendors' /&gt;" Guid="ee95d859-f061-46f8-8cda-b7fa44c00456" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2c98aaf0f4da688857ed70a3d10f5986.jpg" xmlns="">0lLgRim-IfU-8xeK4_v9lTA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

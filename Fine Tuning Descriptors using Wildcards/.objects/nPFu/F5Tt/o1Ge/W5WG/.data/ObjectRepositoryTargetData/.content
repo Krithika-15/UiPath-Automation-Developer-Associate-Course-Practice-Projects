@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PkSvnAg5CEmZo4pGqN13qg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b16ba8bb-c399-4e34-92e0-b4a6c3eb1655" CvElementArea="1924, 264, 185, 70" CvTextArea="1949, 285, 134, 34" CvTextArgument="Replace all" CvType="Button" DesignTimeRectangle="1924, 264, 185, 70" ElementType="Button" ElementVisibilityArgument="Interactive" Guid="6e7b3e53-a8ff-45cc-b998-7bbf54cbf529" ScopeSelectorArgument="&lt;wnd app='notepad.exe' appid='Microsoft.WindowsNotepad_8wekyb3d8bbwe!App' title='Test_11.txt - Notepad' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c827c713-3db8-41b8-ba5b-394798d4d9ad" CvElementArea="1724, 264, 187, 70" CvTextArea="1767, 285, 100, 34" CvTextArgument="Replace" CvType="Button" DesignTimeRectangle="1724, 264, 187, 70" ElementType="Button" Guid="2e6fe37d-9a43-4531-a946-e345b01ec2c2" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="884a13380c2273cbda19e8424460e9f7.jpg" xmlns="">0n60e7BhAVEu0JPQPmH4psQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

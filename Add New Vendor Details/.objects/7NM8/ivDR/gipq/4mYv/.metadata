@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Vendor TaxID",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "4mYvaG1CqEiVC4AI9zz7JQ",
+  "Reference": "91xXoDAToEG8lJG58U3KpQ/4mYvaG1CqEiVC4AI9zz7JQ",
+  "ParentRef": "91xXoDAToEG8lJG58U3KpQ/gipqfsZcG0qhM35HY4-43Q",
+  "Created": "2026-03-10T10:13:19.5825383Z",
+  "Updated": "2026-03-10T10:13:19.5825383Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

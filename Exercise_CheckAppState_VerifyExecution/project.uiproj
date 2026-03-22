@@ -1,0 +1,6 @@
+{
+  "Name": "Exercise_CheckAppState_VerifyExecution",
+  "ProjectType": "Process",
+  "Description": "This project has an exercise built to demonstrate how we can ues the check app state activity and verify execution activity",
+  "MainFile": "Main.xaml"
+}

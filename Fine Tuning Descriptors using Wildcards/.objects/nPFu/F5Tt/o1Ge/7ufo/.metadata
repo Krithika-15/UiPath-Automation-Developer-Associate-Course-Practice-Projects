@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Find",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "7ufoe7pRbkCG_xM7AAX2fg",
+  "Reference": "LRFn81s14EGRPpDCYdSw5Q/7ufoe7pRbkCG_xM7AAX2fg",
+  "ParentRef": "LRFn81s14EGRPpDCYdSw5Q/o1GeIdA5bkSjigjwrpqcww",
+  "Created": "2026-03-13T09:52:37.6264127Z",
+  "Updated": "2026-03-13T09:52:37.6264127Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

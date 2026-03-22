@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PZbon1NU_0erticXbMH6gA" Reference="TtZoYXWK2EaDyUWEcO4NOQ/KBibQjuv_EKDp4rChYLhZQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="codepen.io/chriscoyier/pen/AvYQdv" CVScreenId="feb436d0-f7b4-45da-823a-d0b60f72b162" CvElementArea="682, 1379, 895, 48" CvType="InputBox" DesignTimeRectangle="679, 1382, 899, 45" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='result' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='Field1' tag='INPUT' type='text' class='field text fn' aaname='Full Name' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="2fc037ae-02b3-4960-b130-d25d4142b046" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Simple Responsive Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="feb436d0-f7b4-45da-823a-d0b60f72b162" CvTextArea="77, 1383, 148, 30" CvTextArgument="Full Name" CvType="Text" DesignTimeRectangle="79, 1382, 146, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='result' tag='IFRAME' matching:id='fuzzy' fuzzylevel:id='0.0' /&gt;&lt;webctrl id='title1' tag='LABEL' type='' class='desc' aaname='Full Name' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Full Name' /&gt;" Guid="acd68cd3-c19a-4778-9a72-09cb223e9231" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2840fe2424cdd14f2ec19321108e0216.jpg" xmlns="">0oZ9DVFBm8kqD3f9gv_K7Wg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

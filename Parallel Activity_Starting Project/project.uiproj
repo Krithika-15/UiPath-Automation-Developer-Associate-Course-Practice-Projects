@@ -1,0 +1,6 @@
+{
+  "Name": "DemoParallelActivity",
+  "ProjectType": "Process",
+  "Description": "This workflow demonstates how the parallel activity works.",
+  "MainFile": "Main.xaml"
+}

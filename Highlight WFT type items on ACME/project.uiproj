@@ -1,0 +1,6 @@
+{
+  "Name": "Highlight WFT type items on ACME",
+  "ProjectType": "Process",
+  "Description": "Create a process that navigates to the Work Items page in ACME (www.acme-test.com) and highlights the Type cell on the first page of the table.",
+  "MainFile": "Main.xaml"
+}

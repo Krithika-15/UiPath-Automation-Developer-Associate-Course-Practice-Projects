@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iVcxyule8Um2EXYMScLBlA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com/movieSearch" CVScreenId="b4499e51-9571-4842-a7b7-eb8e66b25213" CvElementArea="1628, 524, 195, 79" CvTextArea="1687, 547, 74, 30" CvTextArgument="FIND" CvType="Button" DesignTimeRectangle="1631, 528, 189, 72" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Find' tag='BUTTON' /&gt;" Guid="cdb5bdcc-7bfc-4976-bd5d-8df8906deac2" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b4499e51-9571-4842-a7b7-eb8e66b25213" CvElementArea="1848, 524, 456, 79" CvTextArea="1907, 547, 334, 30" CvTextArgument="GET POPULAR MOVIES" CvType="Button" DesignTimeRectangle="1852, 528, 449, 72" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Get Popular Movies' tag='BUTTON' type='' class=' uiColorSecondary btn btn-primary btn-lg uiColorPrimary' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='GET POPULAR MOVIES' /&gt;" Guid="776698bc-4add-4906-b289-b0ad2915835b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ba344446ea065632ee80bd1b0af66468.jpg" xmlns="">0TWAyCKK4SkuBUyNDWsJ4bA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

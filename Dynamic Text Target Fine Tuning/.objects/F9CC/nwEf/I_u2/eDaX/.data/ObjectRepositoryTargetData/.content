@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6je2lo-yo06NmSQ-JkMchw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com" CVScreenId="5632a675-2797-404f-9d11-cb9cd5171147" CvTextArea="1663, 311, 206, 32" CvTextArgument="Movie Search" CvType="Text" DesignTimeRectangle="1637, 265, 261, 128" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Movie Search' parentid='nav-mobile' tag='A' /&gt;" Guid="0f6f9263-23bd-42c6-83bc-87ccddba5228" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5632a675-2797-404f-9d11-cb9cd5171147" CvTextArea="1403, 311, 206, 32" CvTextArgument="Shortest Path" CvType="Text" DesignTimeRectangle="1378, 265, 259, 128" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Shortest Path' parentid='nav-mobile' tag='A' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Shortest Path' /&gt;" Guid="d9b1fbd4-99d8-4c2b-9bc4-4acb0622a119" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c0e7fcbe33d4efedacfffa8626c24153.jpg" xmlns="">0YUco8kDXAUSecHRhK5MKqQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

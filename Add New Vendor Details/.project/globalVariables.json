@@ -1,0 +1,18 @@
+[
+  {
+    "Constant": false,
+    "Name": "VendorName",
+    "TypeFullyQualifiedName": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "\"Ram\"",
+    "IsLiteral": false
+  },
+  {
+    "Constant": false,
+    "Name": "VendorId",
+    "TypeFullyQualifiedName": "System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e",
+    "UnresolvedTypeFullyQualifiedName": null,
+    "Expression": "\"100001\"",
+    "IsLiteral": false
+  }
+]

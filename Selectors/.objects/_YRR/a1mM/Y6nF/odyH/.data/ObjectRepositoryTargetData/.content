@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rDnJmz2TeEeiNA-8QlTMPg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nseindia.com" DesignTimeRectangle="1484, 516, 266, 33" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='index_value' parentid='main_menu' tag='DIV' /&gt;" Guid="e9760e80-aa13-4f05-8cdb-17ca4352d602" ScopeSelectorArgument="&lt;html app='msedge.exe' title='NSE - National Stock Exchange of India Ltd: Live Share/Stock Market News &amp;amp;amp; Updates, Quotes- Nseindia.com' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b1ad2755227df9f18fd2ffe42ee084c0.jpg" xmlns="">0L--L3Sk140y1DvWvaQmbeg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

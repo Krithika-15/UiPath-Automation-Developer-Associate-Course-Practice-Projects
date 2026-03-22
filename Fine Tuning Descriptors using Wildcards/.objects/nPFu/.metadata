@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Test_11.txt - Notepad",
+  "Type": "App",
+  "Id": "nPFurvNeBkSg4P3Yhafi_Q",
+  "Reference": "LRFn81s14EGRPpDCYdSw5Q/nPFurvNeBkSg4P3Yhafi_Q",
+  "Created": "2026-03-13T09:50:05.361083Z",
+  "Updated": "2026-03-13T09:50:05.361083Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.26.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

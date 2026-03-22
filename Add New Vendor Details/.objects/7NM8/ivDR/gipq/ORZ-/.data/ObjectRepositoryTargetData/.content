@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pKNJequs9kWvRMo-ZrWzGA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/vendors/add" CVScreenId="76d52ff7-0646-4768-b7c6-4c8294983b98" CvElementArea="1627, 371, 85, 69" CvTextArea="1647, 391, 44, 30" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="1631, 375, 78, 64" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" Guid="272f1639-c6b7-4174-bf1b-1019a6c38bdd" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Add Vendor - Personal - Microsoft​ Edge' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="76d52ff7-0646-4768-b7c6-4c8294983b98" CvTextArea="873, 281, 218, 28" CvTextArgument="Vendor was saved!" CvType="Text" DesignTimeRectangle="845, 243, 896, 100" FuzzySelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl automationid='' role='pane' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='Vendor was saved!' /&gt;" Guid="861b7e91-5b77-48aa-a83e-86a20f2e9951" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="478445abd6b90d5778a422600aff15c0.jpg" xmlns="">0HaW8wj0tYUe-nq-7xTlweg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

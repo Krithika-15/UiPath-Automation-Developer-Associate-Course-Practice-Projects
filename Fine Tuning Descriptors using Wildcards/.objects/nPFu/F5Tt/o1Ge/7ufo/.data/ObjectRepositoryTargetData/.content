@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JuTaW1mRBUSE1Wvr5Bc_mw" Reference="LRFn81s14EGRPpDCYdSw5Q/7ufoe7pRbkCG_xM7AAX2fg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="dcbf74fb-0790-4abc-b117-cf5d24ca0e89" CvElementArea="552, 184, 1231, 67" CvType="InputBox" DesignTimeRectangle="436, 187, 792, 68" ElementType="InputBox" ElementVisibilityArgument="Interactive" Guid="22670668-fa55-49b7-b1f8-a14442de3e97" ScopeSelectorArgument="&lt;wnd app='notepad.exe' appid='Microsoft.WindowsNotepad_8wekyb3d8bbwe!App' title='Test_11.txt - Notepad' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="96bea0f3-a027-44fb-a408-9d28987d2b43" CvElementArea="368, 201, 42, 38" CvType="ArrowButton" DesignTimeRectangle="368, 201, 42, 38" ElementType="ArrowButton" Guid="3c050a79-025f-42b7-88a1-8c4caeab7911" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d2a12b6fb7629743368960b24a663acf.jpg" xmlns="">075b1jKo7JEa79bUx9oCAug</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

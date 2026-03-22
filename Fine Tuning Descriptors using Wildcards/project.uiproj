@@ -1,0 +1,6 @@
+{
+  "Name": "Fine Tuning Descriptors using Wildcards",
+  "ProjectType": "Process",
+  "Description": "Learning to fine tune the descriptors using wildcards",
+  "MainFile": "Main.xaml"
+}

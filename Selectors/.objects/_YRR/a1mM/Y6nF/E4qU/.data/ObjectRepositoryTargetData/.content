@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jl5jprbUj0GTa7FQpHYQLg" Reference="v9uit2cgCEiPYi6RC8VS4w/E4qUGo1Eyk6UBlEp7CcIPQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="nseindia.com" DesignTimeRectangle="1649, 516, 20, 32" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-role='img' parentid='main_menu' tag='svg' /&gt;" Guid="8e47170e-5285-4d09-848a-2420a38a6188" ScopeSelectorArgument="&lt;html app='msedge.exe' title='NSE - National Stock Exchange of India Ltd: Live Share/Stock Market News &amp;amp;amp; Updates, Quotes- Nseindia.com' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="28ff5455a2cd06465a75f0ab5ef91cb8.jpg" xmlns="">0YEICsmp1skiGdY5ttnYohg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetAttributeGeneric</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

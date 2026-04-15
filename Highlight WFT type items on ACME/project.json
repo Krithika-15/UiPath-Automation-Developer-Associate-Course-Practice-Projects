@@ -4,7 +4,8 @@
   "description": "Create a process that navigates to the Work Items page in ACME (www.acme-test.com) and highlights the Type cell on the first page of the table.",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "[26.2.1]"
+    "UiPath.System.Activities": "[26.2.1]",
+    "UiPath.UIAutomation.Activities": "[25.10.28]"
   },
   "webServices": [],
   "entitiesStores": [],

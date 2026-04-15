@@ -1,0 +1,6 @@
+{
+  "Name": "WorkingWithPdf",
+  "ProjectType": "Process",
+  "Description": "Extract data from PDF Documents\r\n",
+  "MainFile": "Main.xaml"
+}

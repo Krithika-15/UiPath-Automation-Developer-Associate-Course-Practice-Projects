@@ -1,0 +1,6 @@
+{
+  "Name": "Gmail with IMAP and SMTP",
+  "ProjectType": "Process",
+  "Description": "To create an automated process in Studio that extracts all unanswered emails received in the past 30 days and builds a report holding the sender’s email address, email subject, and email date and time. Afterwards, send the report via email along with the processed invoice attachments.",
+  "MainFile": "Main.xaml"
+}

@@ -1,0 +1,6 @@
+{
+  "Name": "Try Catch Exercise",
+  "ProjectType": "Process",
+  "Description": "Design an automation solution that calculates the difference between two values (Cash In and Cash Out) in an Excel file and enters the result in a third column. Exceptions are handled using Try Catch",
+  "MainFile": "Main.xaml"
+}

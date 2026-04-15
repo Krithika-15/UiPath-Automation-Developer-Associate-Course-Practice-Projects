@@ -81,8 +81,8 @@
         "C:\\Users\\krith\\.nuget\\packages\\system.servicemodel.duplex\\4.9.0\\lib/net6.0/System.ServiceModel.Duplex.dll",
         "C:\\Users\\krith\\.nuget\\packages\\system.servicemodel.http\\4.9.0\\lib/net6.0/System.ServiceModel.Http.dll",
         "C:\\Users\\krith\\.nuget\\packages\\system.servicemodel.nettcp\\4.9.0\\lib/net6.0/System.ServiceModel.NetTcp.dll",
-        "C:\\Users\\krith\\.nuget\\packages\\system.servicemodel.primitives\\4.9.0\\lib/net6.0/System.ServiceModel.dll",
         "C:\\Users\\krith\\.nuget\\packages\\system.servicemodel.primitives\\4.9.0\\lib/net6.0/System.ServiceModel.Primitives.dll",
+        "C:\\Users\\krith\\.nuget\\packages\\system.servicemodel.primitives\\4.9.0\\lib/net6.0/System.ServiceModel.dll",
         "C:\\Users\\krith\\.nuget\\packages\\system.servicemodel.security\\4.9.0\\lib/net6.0/System.ServiceModel.Security.dll",
         "C:\\Users\\krith\\.nuget\\packages\\system.servicemodel.syndication\\6.0.0\\lib/net6.0/System.ServiceModel.Syndication.dll",
         "C:\\Users\\krith\\.nuget\\packages\\system.serviceprocess.servicecontroller\\6.0.1\\runtimes/win/lib/net6.0/System.ServiceProcess.ServiceController.dll",
@@ -135,9 +135,9 @@
         "C:\\Users\\krith\\.nuget\\packages\\uipath.activities.runtimegovernance\\1.1.7\\lib/net6.0-windows7.0/UiPath.Activities.RuntimeGovernance.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.appsignatures\\25.10.173.58491\\lib/net6.0-windows7.0/AppSignatures.Locator.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.codedworkflows\\24.10.1\\lib/net6.0-windows7.0/UiPath.CodedWorkflows.dll",
+        "C:\\Users\\krith\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib/net6.0/Emgu.CV.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib/net6.0/concrt140.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib/net6.0/cvextern.dll",
-        "C:\\Users\\krith\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib/net6.0/Emgu.CV.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib/net6.0/libusb-1.0.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib/net6.0/msvcp140.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib/net6.0/msvcp140_1.dll",
@@ -161,21 +161,21 @@
         "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities\\25.10.28\\lib/net6.0-windows7.0/UiPath.Wizards.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib/net6.0-windows7.0/UiPath.CV.Activities.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib/net6.0-windows7.0/UiPath.CV.dll",
-        "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib/net6.0-windows7.0/UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib/net6.0-windows7.0/UiPath.UIAutomationCore.dll",
+        "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.API.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.Contracts.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.API.dll",
-        "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.ExternalIntegrations.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.Migration.dll",
+        "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib/net6.0-windows7.0/UiPath.UIAutomationNext.dll",
+        "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib/net6.0-windows7.0/UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime.design\\25.10.28\\lib/net6.0-windows7.0/UiPath.UIAutomation.Activities.Runtime.Design.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.design.recoverypanel\\25.10.28\\lib/net6.0/UiPath.UIAutomation.Design.RecoveryPanel.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.vision\\3.16.0\\lib/net6.0-windows7.0/UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.vision\\3.16.0\\lib/net6.0-windows7.0/UiPath.Vision.Core.dll",
-        "C:\\Users\\krith\\.nuget\\packages\\uipath.vision\\3.16.0\\lib/net6.0-windows7.0/UiPath.Vision.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.vision\\3.16.0\\lib/net6.0-windows7.0/UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\krith\\.nuget\\packages\\uipath.vision\\3.16.0\\lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\krith\\.nuget\\packages\\uipath.vision\\3.16.0\\lib/net6.0-windows7.0/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\krith\\.nuget\\packages\\uipath.vision\\3.16.0\\lib/net6.0-windows7.0/UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities\\25.10.28"
     }
@@ -5728,8 +5728,8 @@
         "Version": "6.0.0"
       },
       "Assemblies": [
-        "C:\\Users\\krith\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\runtimes\\win\\lib\\net6.0\\System.Diagnostics.EventLog.dll",
-        "C:\\Users\\krith\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\runtimes\\win\\lib\\net6.0\\System.Diagnostics.EventLog.Messages.dll"
+        "C:\\Users\\krith\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\runtimes\\win\\lib\\net6.0\\System.Diagnostics.EventLog.Messages.dll",
+        "C:\\Users\\krith\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0\\runtimes\\win\\lib\\net6.0\\System.Diagnostics.EventLog.dll"
       ],
       "Path": "C:\\Users\\krith\\.nuget\\packages\\system.diagnostics.eventlog\\6.0.0"
     },
@@ -6415,8 +6415,8 @@
         "Version": "4.9.0"
       },
       "Assemblies": [
-        "C:\\Users\\krith\\.nuget\\packages\\system.servicemodel.primitives\\4.9.0\\lib\\net6.0\\System.ServiceModel.dll",
-        "C:\\Users\\krith\\.nuget\\packages\\system.servicemodel.primitives\\4.9.0\\lib\\net6.0\\System.ServiceModel.Primitives.dll"
+        "C:\\Users\\krith\\.nuget\\packages\\system.servicemodel.primitives\\4.9.0\\lib\\net6.0\\System.ServiceModel.Primitives.dll",
+        "C:\\Users\\krith\\.nuget\\packages\\system.servicemodel.primitives\\4.9.0\\lib\\net6.0\\System.ServiceModel.dll"
       ],
       "Path": "C:\\Users\\krith\\.nuget\\packages\\system.servicemodel.primitives\\4.9.0"
     },
@@ -6693,9 +6693,9 @@
         "Version": "1.4.0"
       },
       "Assemblies": [
+        "C:\\Users\\krith\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib\\net6.0\\Emgu.CV.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib\\net6.0\\concrt140.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib\\net6.0\\cvextern.dll",
-        "C:\\Users\\krith\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib\\net6.0\\Emgu.CV.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib\\net6.0\\libusb-1.0.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib\\net6.0\\msvcp140.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.emgucvbundle\\1.4.0\\lib\\net6.0\\msvcp140_1.dll",
@@ -6825,14 +6825,14 @@
       "Assemblies": [
         "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib\\net6.0-windows7.0\\UiPath.CV.Activities.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib\\net6.0-windows7.0\\UiPath.CV.dll",
-        "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib\\net6.0-windows7.0\\UiPath.UiAutomation.Activities.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib\\net6.0-windows7.0\\UiPath.UIAutomationCore.dll",
+        "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.API.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.Contracts.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Activities.dll",
-        "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.API.dll",
-        "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.ExternalIntegrations.dll",
-        "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Migration.dll"
+        "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.Migration.dll",
+        "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib\\net6.0-windows7.0\\UiPath.UIAutomationNext.dll",
+        "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28\\lib\\net6.0-windows7.0\\UiPath.UiAutomation.Activities.dll"
       ],
       "Path": "C:\\Users\\krith\\.nuget\\packages\\uipath.uiautomation.activities.runtime\\25.10.28"
     },
@@ -6864,9 +6864,9 @@
       "Assemblies": [
         "C:\\Users\\krith\\.nuget\\packages\\uipath.vision\\3.16.0\\lib\\net6.0-windows7.0\\UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.vision\\3.16.0\\lib\\net6.0-windows7.0\\UiPath.Vision.Core.dll",
-        "C:\\Users\\krith\\.nuget\\packages\\uipath.vision\\3.16.0\\lib\\net6.0-windows7.0\\UiPath.Vision.dll",
         "C:\\Users\\krith\\.nuget\\packages\\uipath.vision\\3.16.0\\lib\\net6.0-windows7.0\\UiPath.Vision.GoogleCloud.dll",
-        "C:\\Users\\krith\\.nuget\\packages\\uipath.vision\\3.16.0\\lib\\net6.0-windows7.0\\UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\krith\\.nuget\\packages\\uipath.vision\\3.16.0\\lib\\net6.0-windows7.0\\UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\krith\\.nuget\\packages\\uipath.vision\\3.16.0\\lib\\net6.0-windows7.0\\UiPath.Vision.dll"
       ],
       "Path": "C:\\Users\\krith\\.nuget\\packages\\uipath.vision\\3.16.0"
     }

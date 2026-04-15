@@ -1,0 +1,6 @@
+{
+  "Name": "Practice2_RetryScope",
+  "ProjectType": "Process",
+  "Description": "The workflow attempts to open the Notepad window 3 times and uses the condition set in the Retry Scope activity to stop the loop.",
+  "MainFile": "Main.xaml"
+}

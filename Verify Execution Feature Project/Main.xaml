@@ -37,6 +37,8 @@
       <x:String>UiPath.Activities.System</x:String>
       <x:String>GlobalVariablesNamespace</x:String>
       <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -73,15 +75,24 @@
       <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
       <AssemblyReference>WindowsBase</AssemblyReference>
       <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="This process logins to the Acme website and verifies:&#xA;1. The Username entered is correct.&#xA;2. Whether login is successful or not.&#xA;" DisplayName="Verify Execution" sap:VirtualizedContainerService.HintSize="484,1226.5" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap2010:Annotation.AnnotationText="This process logins to the Acme website and verifies:&#xA;1. The Username entered is correct.&#xA;2. Whether login is successful or not.&#xA;" DisplayName="Verify Execution" sap:VirtualizedContainerService.HintSize="1302,1438" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Name="Username">
-        <Variable.Default>
-          <Literal x:TypeArguments="x:String">krithikakrs96@gmail.com</Literal>
-        </Variable.Default>
-      </Variable>
+      <Variable x:TypeArguments="x:String" Default="krithikakrs96@gmail.com" Name="Username" />
       <Variable x:TypeArguments="x:String" Name="Password" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
@@ -90,19 +101,19 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[NAppCloseMode.Always]" DisplayName="Log In_ACME website" sap:VirtualizedContainerService.HintSize="484,1126" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="Always" ScopeGuid="d6780021-af05-461c-b639-0fc199d2fa06" Version="V1" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[NAppCloseMode.Always]" DisplayName="Log In_ACME website" sap:VirtualizedContainerService.HintSize="484,1338" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="Always" ScopeGuid="d6780021-af05-461c-b639-0fc199d2fa06" Version="V1" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,884.5" sap2010:WorkflowViewState.IdRef="Sequence_1">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1097" sap2010:WorkflowViewState.IdRef="Sequence_1">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,291" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="d6780021-af05-461c-b639-0fc199d2fa06" Text="[Username]" Version="V1">
+            <uix:NTypeInto ActivateBefore="False" ClickBeforeMode="None" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="d6780021-af05-461c-b639-0fc199d2fa06" Text="[Username]" Version="V1">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/login" DesignTimeRectangle="468, 376, 485, 34" ElementType="InputBox" FriendlyName="'INPUT email'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='email' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='email' aaname='Email:' /&gt;" Guid="5c779b9b-c860-427a-ad3a-f4cd0886f7c4" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAekAAAAmCAYAAADgB2NCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGDSURBVHhe7dgxisJQGIXR2f/aJCtIZyGCiAgBxZg33CEJWkxp/Itz4BZ5ef1H8tMAgJJEGgCKeov0MAyt7/vWdV3b7XZmZma2wdLd9DcdfrVGOi9yab/ft9Pp1M7ns5mZmW2wdDf9TYdfQ71GOgXPhev12u73e3s+n2ZmZrbB0t30Nx1OjxdrpFPvy+XSxnFs0zTNpwDAp6W76W86nB4v1kjnn/jtdhNoAPiC9DcdTo8Xb5HOJzcA8B3psEgDQEEiDQBFiTQAFCXSAFCUSANAUSINAEWJNAAUJdIAUJRIA0BRIg0ARYk0ABQl0gBQlEgDQFEiDQBFiTQAFCXSAFCUSANAUSINAEWJNAAUJdIAUJRIA0BRIg0ARYk0ABQl0gBQ1L+R7rquPR6P+QkA2Fo6nB4v1kj3fd8Oh0Obpmk+AQC2kv6mw+nxYo30MAx/9T4ej20cx/kUAPi0dDf9TYfT48Ua6ciLFDyX8k/czMzMPr90N/19DXS8RRoAqEOkAaCk1n4BOGRylpSr+hAAAAAASUVORK5CYII=" InformativeScreenshot="b12cda57447e12595e59c62dddaf9059.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="FuzzySelector, Image">
                   <uix:TargetAnchorable.Anchors>
@@ -120,8 +131,12 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <ui:GetPassword DisplayName="Private: Get Password" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="GetPassword_2" ProtectedPassword="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAArY0jwd1yiECYWAcjsqgu7wAAAAACAAAAAAAQZgAAAAEAACAAAAAeEaXHmM2agw6CW057YlVBQznfrzg7X6CRqFvdLaDAegAAAAAOgAAAAAIAACAAAAA7mK0Xp76rj0aqGLDUaT5FchZ9SqMODfswjLamOdRoYyAAAACb+69JcVzVj8msAOzKugfS4VHxyRk7vyc/q3kWOGtNn0AAAADEywYXSl6DtbRY48gD2vBeFo8pq8zb46hoJNNov0hPnvXtd/m6Wm7CU4f4nllW/XVLhxTRk62t9L8GmyCYlMSo" Result="[Password]" />
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,253.5" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="d6780021-af05-461c-b639-0fc199d2fa06" Text="[Password]" Version="V1">
+            <ui:InputDialog OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="416,275" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter your password" Options="[new string(){}]" Title="Password" TopMost="False">
+              <ui:InputDialog.Result>
+                <OutArgument x:TypeArguments="x:String">[Password]</OutArgument>
+              </ui:InputDialog.Result>
+            </ui:InputDialog>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,251" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="d6780021-af05-461c-b639-0fc199d2fa06" Text="[Password]" Version="V1">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/login" DesignTimeRectangle="468, 450, 485, 34" ElementType="InputBoxPassword" FriendlyName="'INPUT password'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='password' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='password' aaname='Password:' /&gt;" Guid="2a52005a-358d-45ce-93b6-a5dc419524c7" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAekAAAAmCAYAAADgB2NCAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGDSURBVHhe7dgxisJQGIXR2f/aJCtIZyGCiAgBxZg33CEJWkxp/Itz4BZ5ef1H8tMAgJJEGgCKeov0MAyt7/vWdV3b7XZmZma2wdLd9DcdfrVGOi9yab/ft9Pp1M7ns5mZmW2wdDf9TYdfQ71GOgXPhev12u73e3s+n2ZmZrbB0t30Nx1OjxdrpFPvy+XSxnFs0zTNpwDAp6W76W86nB4v1kjnn/jtdhNoAPiC9DcdTo8Xb5HOJzcA8B3psEgDQEEiDQBFiTQAFCXSAFCUSANAUSINAEWJNAAUJdIAUJRIA0BRIg0ARYk0ABQl0gBQlEgDQFEiDQBFiTQAFCXSAFCUSANAUSINAEWJNAAUJdIAUJRIA0BRIg0ARYk0ABQl0gBQ1L+R7rquPR6P+QkA2Fo6nB4v1kj3fd8Oh0Obpmk+AQC2kv6mw+nxYo30MAx/9T4ej20cx/kUAPi0dDf9TYfT48Ua6ciLFDyX8k/czMzMPr90N/19DXS8RRoAqEOkAaCk1n4BOGRylpSr+hAAAAAASUVORK5CYII=" InformativeScreenshot="8511fa08c5a2498e6e5ca042ae7162a8.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="FuzzySelector, Image">
                   <uix:TargetAnchorable.Anchors>

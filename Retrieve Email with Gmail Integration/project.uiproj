@@ -1,0 +1,6 @@
+{
+  "Name": "Retrieve Email with Gmail Integration",
+  "ProjectType": "Process",
+  "Description": "Working with integrations activities to automate Gmail",
+  "MainFile": "Main.xaml"
+}

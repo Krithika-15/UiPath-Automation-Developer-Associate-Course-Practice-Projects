@@ -1,0 +1,6 @@
+{
+  "Name": "Working with Files and Folders",
+  "ProjectType": "Process",
+  "Description": "learning to work with files and folders",
+  "MainFile": "Main.xaml"
+}

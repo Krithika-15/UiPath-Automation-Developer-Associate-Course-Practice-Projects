@@ -4,7 +4,9 @@
   "description": "Extract data from PDF Documents\r\n",
   "main": "Main.xaml",
   "dependencies": {
-    "UiPath.System.Activities": "[26.2.4]"
+    "UiPath.PDF.Activities": "[4.1.0-preview]",
+    "UiPath.System.Activities": "[26.2.4]",
+    "UiPath.UIAutomation.Activities": "[25.10.28]"
   },
   "webServices": [],
   "entitiesStores": [],

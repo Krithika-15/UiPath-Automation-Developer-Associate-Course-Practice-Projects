@@ -1,0 +1,6 @@
+{
+  "Name": "Sum in Two Excel File",
+  "ProjectType": "Process",
+  "Description": "Practice exercise",
+  "MainFile": "Main.xaml"
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Invoice # 3 A.pdf - Adobe Acrobat Reader (64-",
+  "Type": "Screen",
+  "Id": "GcrQJ_MHMkS888tPgSa3pw",
+  "Reference": "XtnhOTMajECfpU8b4BnJeQ/GcrQJ_MHMkS888tPgSa3pw",
+  "ParentRef": "XtnhOTMajECfpU8b4BnJeQ/jLXNLRbTNECnupAdDXAckA",
+  "Created": "2026-04-15T09:31:10.3842367Z",
+  "Updated": "2026-04-15T09:31:10.3842367Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

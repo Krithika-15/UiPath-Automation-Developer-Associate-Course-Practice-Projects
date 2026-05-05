@@ -30,6 +30,7 @@
       <x:String>System.Xml.Serialization</x:String>
       <x:String>System.Reflection</x:String>
       <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -80,9 +81,10 @@
       <AssemblyReference>System.Collections</AssemblyReference>
       <AssemblyReference>System.Linq.Async</AssemblyReference>
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="552,1138" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="685,983" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dt_Users" />
       <Variable x:TypeArguments="sd:DataTable" Name="dt_OverdueBooks" />
@@ -110,10 +112,25 @@
         </scg:List>
       </ui:JoinDataTables.Arguments>
     </ui:JoinDataTables>
-    <ui:RemoveDataColumn Column="{x:Null}" ColumnName="{x:Null}" ColumnIndex="6" DataTable="[dt_BorrowedBooks]" DisplayName="Remove Data Column" sap:VirtualizedContainerService.HintSize="450,222.5" sap2010:WorkflowViewState.IdRef="RemoveDataColumn_2" />
-    <ui:RemoveDataColumn Column="{x:Null}" ColumnIndex="{x:Null}" ColumnName="Department" DataTable="[dt_BorrowedBooks]" DisplayName="Remove Data Column" sap:VirtualizedContainerService.HintSize="450,222.5" sap2010:WorkflowViewState.IdRef="RemoveDataColumn_1" />
+    <ui:RemoveDataColumn Column="{x:Null}" ColumnName="{x:Null}" ColumnIndex="6" DataTable="[dt_BorrowedBooks]" DisplayName="Remove Data Column" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="RemoveDataColumn_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:RemoveDataColumn>
+    <ui:RemoveDataColumn Column="{x:Null}" ColumnIndex="{x:Null}" ColumnName="Department" DataTable="[dt_BorrowedBooks]" DisplayName="Remove Data Column" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="RemoveDataColumn_1">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:RemoveDataColumn>
     <ui:SortDataTable ColumnIndex="{x:Null}" DataColumn="{x:Null}" ColumnName="ID" DataTable="[dt_BorrowedBooks]" DisplayName="Sort Data Table" sap:VirtualizedContainerService.HintSize="450,113.5" sap2010:WorkflowViewState.IdRef="SortDataTable_1" OutputDataTable="[dt_BorrowedBooks]" SortOrder="Ascending" />
     <ui:OutputDataTable DataTable="[dt_BorrowedBooks]" DisplayName="Output Data Table as Text" sap:VirtualizedContainerService.HintSize="450,113.5" sap2010:WorkflowViewState.IdRef="OutputDataTable_1" Text="[BorrowedBooksString]" />
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,167" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[BorrowedBooksString]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,176" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[BorrowedBooksString]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,167" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Trace" Message="[&quot;Total Borrowed Books: &quot; + dt_BorrowedBooks.Rows.Count.ToString]" />
   </Sequence>
 </Activity>

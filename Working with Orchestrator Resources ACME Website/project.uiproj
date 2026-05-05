@@ -1,0 +1,6 @@
+{
+  "Name": "Working with Orchestrator Resources ACME Website",
+  "ProjectType": "Process",
+  "Description": "This process helps us in understan how to reference and use Orchestrator Resources in Studio.",
+  "MainFile": "Main.xaml"
+}

@@ -1,0 +1,47 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "activityDisplayName": "Get Credential",
+      "activityId": "GetRobotCredential_1",
+      "resource": "asset",
+      "key": "OrchestratorOverview.ACMECredential",
+      "id": "assetOrchestratorOverview.ACMECredentialOrchestratorOverviewFalseACMECredentialFalse",
+      "value": {
+        "folderPath": {
+          "defaultValue": "OrchestratorOverview",
+          "isExpression": false
+        },
+        "name": {
+          "defaultValue": "ACMECredential",
+          "isExpression": false
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.2"
+      }
+    },
+    {
+      "activityDisplayName": "Add Queue Item",
+      "activityId": "AddQueueItem_1",
+      "resource": "queue",
+      "key": "OrchestratorOverview.ACMEQueue",
+      "id": "queueOrchestratorOverview.ACMEQueueOrchestratorOverviewFalseACMEQueueFalse",
+      "value": {
+        "folderPath": {
+          "defaultValue": "OrchestratorOverview",
+          "isExpression": false,
+          "displayName": "Folder Path"
+        },
+        "name": {
+          "defaultValue": "ACMEQueue",
+          "isExpression": false,
+          "displayName": "Queue name"
+        }
+      },
+      "metadata": {
+        "BindingsVersion": "2.2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "Name": "Percentage Of Expenses",
+  "ProjectType": "Process",
+  "Description": "Bring together cash and card expenses and calculate percentages on categories \r\n\r\nSuppose we have a list of expenses (rent, food, utilities, leisure, savings) for which card payments were made. We have discovered that some transactions are missing, as they were done in cash. Prepare a workflow to bring all the expenses in a single file and calculate the sum of all expenses in the current month, then calculate the percentage of each expense in the current month. ",
+  "MainFile": "Main.xaml"
+}

@@ -1,0 +1,6 @@
+{
+  "Name": "WorkingWithOrchestratorResources",
+  "ProjectType": "Process",
+  "Description": "Learning orchestrator resources assets and queues",
+  "MainFile": "Main.xaml"
+}
